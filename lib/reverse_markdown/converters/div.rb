@@ -8,5 +8,6 @@ module ReverseMarkdown
 
     register :div,     Div.new
     register :article, Div.new
+    register :section, Div.new
   end
 end
